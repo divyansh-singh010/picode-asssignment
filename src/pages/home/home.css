@@ -1,0 +1,271 @@
+.home {
+  background: #121212;
+  height: 100vh;
+  padding: 0 1rem;
+  display: flex;
+}
+.c1-c2-c3-container {
+  width: 75vw;
+  height: 90%;
+  margin: 0 0.75rem;
+  padding: 1.25rem 0;
+}
+.c1-container {
+  width: 100%;
+  height: 35%;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+}
+.c2-container {
+  width: 100%;
+  height: 45%;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+}
+.c3-container {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+}
+.c3r1-container,
+.c3r2-container {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.c3r1-container {
+  margin-right: 5px;
+  position: relative;
+}
+.c3r2-container {
+  margin-left: 5px;
+  position: relative;
+}
+.c4-container {
+  width: 25vw;
+  padding: 1.75rem 0;
+}
+.c1r1-container,
+.c1r2-container,
+.c1r3-container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.c1r1-container {
+  width: 35%;
+  margin-right: 5px;
+}
+.c1r2-container {
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 32.5%;
+}
+.c1r3-container {
+  margin-left: 5px;
+  width: 32.5%;
+}
+.c2r1-container,
+.c2r2-container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.c2r1-container {
+  width: 35%;
+}
+.c2r2-container {
+  background: #fff;
+  width: 65%;
+  position: relative;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.c1r1-image-container,
+.c1r2-image-container,
+.c1r3-image-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.c1r1-image-container img,
+.c1r2-image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.c1r3-image-container {
+  background: #f2b8f2;
+  border-radius: 8px;
+}
+.c1r3-image-container img {
+  width: 75%;
+  height: 75%;
+  object-fit: contain;
+  border-radius: 8px;
+}
+.c2r1-image-container {
+  width: 100%;
+  height: 100%;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.c2r1-image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.c2r2-image-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30%;
+  height: 60%;
+}
+.c2r2-image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 8px;
+}
+.c2r2-text-container {
+  margin: 15px 0;
+  text-align: center;
+}
+.h2,
+.h4 {
+  margin: 5px 0;
+}
+.c2r2-input-container {
+  width: 100%;
+  display: flex;
+  margin: 15px 0;
+  justify-content: center;
+  align-items: center;
+}
+.c2r2-input-container input {
+  width: 60%;
+  height: 100%;
+  background: #f7f5f9;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  color: rgba(192, 192, 192, 0.8);
+  font-weight: 700;
+  padding: 0.5rem;
+  padding-left: 1.5rem;
+  margin-right: 10px;
+  line-height: 1.5rem;
+}
+.c2r2-input-container input::placeholder {
+  color: rgba(192, 192, 192, 0.8);
+  font-weight: 700;
+}
+.c2r2-input-container input:focus {
+  outline: none;
+}
+.c2r2-input-container button {
+  width: fit-content;
+  height: 125%;
+  padding: 0.5rem;
+  font: 1.25rem;
+  background: #ffdd00;
+  border: none;
+  border-radius: 8px;
+  color: #000;
+  font-weight: 700;
+  cursor: pointer;
+}
+.c3r1-image-container,
+.c3r2-image-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.c3r1-image-container img,
+.c3r2-image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.c3r1-text-container {
+  text-align: center;
+  position: absolute;
+  font-size: 1.25rem;
+  font-weight: 600;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.c3r2-text-container {
+  text-align: center;
+  position: absolute;
+  font-size: 1.25rem;
+  font-weight: 600;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.c4r1-container,
+.c4r2-container {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.c4r1-container {
+  margin-bottom: 10px;
+  background: url("../../components/images/Gradient.png");
+  border-radius: 8px;
+}
+.c4r2-container {
+  margin-bottom: 15px;
+  background: #ffdd00;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+}
+.c4r1-image-container {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+.c4r2-image-container {
+  width: 100%;
+  height: 65%;
+}
+.c4r2-image-container img {
+  padding-top: 35px;
+  padding-left: 30px;
+  width: auto;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 8px;
+}
+.c4r2-text-container {
+  text-align: start;
+  margin: 15px 0;
+  font-size: 1.5rem;
+  line-height: 25px;
+  font-weight: 700;
+  color: #eb4335;
+  text-align: center;
+}
