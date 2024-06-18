@@ -60,6 +60,37 @@
 .c1r1-container {
   width: 35%;
   margin-right: 5px;
+  position: relative;
+}
+.c1r1-text-container {
+  position: absolute;
+  font-size: 1.75rem;
+  font-weight: 800;
+  color: #fff;
+  line-height: 40px;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+.c1r1-button-container {
+  position: absolute;
+  bottom: 10px;
+  left: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.c1r1-button-container button {
+  width: max-content;
+  height: 100%;
+  background: #fff;
+  border: none;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  color: #000;
+  font-weight: 700;
+  cursor: pointer;
+  margin: 5px 10px 5px 0 ;
+  padding: 10px;
 }
 .c1r2-container {
   margin-left: 5px;
@@ -108,10 +139,30 @@
 .c1r3-image-container {
   background: #f2b8f2;
   border-radius: 8px;
+  position: relative;
+}
+.c1r3-text-container1 {
+  position: absolute;
+  font-weight: 400;
+  font-size: 1.25rem;
+  font: "PressStart2P-Regular";
+  top: 35px;
+  left: 15px;
+  color: #fff;
+}
+.c1r3-text-container2 {
+  position: absolute;
+  font-size: 1.25rem;
+  font: "PressStart2P-Regular";
+  font-weight: 400;
+  bottom: 40px;
+  right: 52px;
+  color: #fff;
 }
 .c1r3-image-container img {
   width: 75%;
   height: 75%;
+  z-index: 20;
   object-fit: contain;
   border-radius: 8px;
 }

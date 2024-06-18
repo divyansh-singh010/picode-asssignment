@@ -30,6 +30,11 @@ const Home = () => {
                             <img src={c1r1} alt="C1R1" />
                         </div>
                         <div className="c1r1-text-container">
+                            Your Next <br />Adventure <br />Awaits
+                        </div>
+                        <div className="c1r1-button-container">
+                            <button>Logo</button>
+                            <button>Loading sports</button>
                         </div>
                     </div>
                     <div className="c1r2-container">
@@ -40,6 +45,12 @@ const Home = () => {
                     <div className="c1r3-container">
                         <div className="c1r3-image-container">
                             <img src={controller} alt="C1R1" />
+                            <div className="c1r3-text-container1">
+                                GAMERS
+                            </div>
+                            <div className="c1r3-text-container2">
+                                ASSEMBLE
+                            </div>
                         </div>
                     </div>
                 </div>
